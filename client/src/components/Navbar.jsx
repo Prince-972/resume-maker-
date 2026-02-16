@@ -29,15 +29,18 @@ const Navbar = () => {
                             </span>
                         </Link>
                         <div className="hidden sm:ml-10 sm:flex sm:space-x-8">
-                            <Link to="/" className="text-gray-900 dark:text-gray-100 inline-flex items-center px-1 pt-1 border-b-2 border-blue-500 text-sm font-medium">
-                                Build
+                            <Link to="/" className="text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-200 hover:border-gray-300 inline-flex items-center px-1 pt-1 border-b-2 border-transparent text-sm font-medium transition">
+                                Home
                             </Link>
+
                             <Link to="/templates" className="text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-200 hover:border-gray-300 inline-flex items-center px-1 pt-1 border-b-2 border-transparent text-sm font-medium transition">
                                 Templates
                             </Link>
-                            <Link to="/welcome" className="text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-200 hover:border-gray-300 inline-flex items-center px-1 pt-1 border-b-2 border-transparent text-sm font-medium transition">
-                                About
+
+                            <Link to="/builder" className="text-gray-900 dark:text-gray-100 inline-flex items-center px-1 pt-1 border-b-2 border-blue-500 text-sm font-medium">
+                                Build
                             </Link>
+
                         </div>
                     </div>
                     <div className="hidden sm:ml-6 sm:flex sm:items-center space-x-4">

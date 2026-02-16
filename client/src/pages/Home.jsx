@@ -24,7 +24,7 @@ const Home = () => {
                 </p>
 
                 <div className="flex flex-col sm:flex-row justify-center gap-6 pt-4">
-                    <Link to="/" className="px-10 py-4 bg-blue-600 text-white rounded-2xl font-bold hover:bg-blue-700 transition transform hover:scale-105 shadow-xl text-lg flex items-center justify-center gap-2">
+                    <Link to="/builder" className="px-10 py-4 bg-blue-600 text-white rounded-2xl font-bold hover:bg-blue-700 transition transform hover:scale-105 shadow-xl text-lg flex items-center justify-center gap-2">
                         Build Now — It's Free
                     </Link>
                     <Link to="/templates" className="px-10 py-4 bg-white dark:bg-gray-900 text-gray-900 dark:text-white border-2 border-gray-100 dark:border-gray-800 rounded-2xl font-bold hover:bg-gray-50 dark:hover:bg-gray-800 transition transform hover:scale-105 shadow-sm text-lg">

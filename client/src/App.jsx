@@ -10,12 +10,12 @@ import Register from './pages/Register';
 function App() {
   return (
     <Router>
-      <div className="min-h-screen bg-gray-50 flex flex-col">
+      <div className="min-h-screen bg-gray-50 dark:bg-gray-950 flex flex-col transition-colors duration-300">
         <Navbar />
         <main className="flex-grow">
           <Routes>
-            <Route path="/" element={<Builder />} />
-            <Route path="/welcome" element={<Home />} />
+            <Route path="/" element={<Home />} />
+            <Route path="/builder" element={<Builder />} />
             <Route path="/templates" element={<Templates />} />
             <Route path="/login" element={<Login />} />
             <Route path="/register" element={<Register />} />
